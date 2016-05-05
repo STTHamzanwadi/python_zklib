@@ -1,0 +1,58 @@
+INFO:root:Mulai koneksi 2016-05-05 11:33:37.873000
+INFO:root: Mulai koneksi 2016-05-05 11:34:58.324000
+INFO:root:Jumlah data kehadiran: 19520
+INFO:root: Inisiasi koneksi 2016-05-05 11:42:18.141000
+INFO:root: Koneksi berhasil
+INFO:root:Jumlah user pada sistem: 31
+INFO:root:Jumlah data kehadiran: 19520
+INFO:root: Durasi koneksi 0:00:23.702000
+INFO:root: Inisiasi koneksi 2016-05-05 11:48:57.123000
+INFO:root: Koneksi berhasil
+INFO:root: Jumlah user pada sistem: 31
+INFO:root: Jumlah data kehadiran: 19520
+INFO:root: Durasi koneksi 2016-05-05 08:53:09
+INFO:root: Durasi koneksi 0:00:23.543000
+INFO:root: Inisiasi koneksi 2016-05-05 11:51:46.718000
+INFO:root: Koneksi berhasil
+INFO:root: Jumlah user pada sistem: 31
+INFO:root: Jumlah data kehadiran: 19520
+INFO:root: Scan terakhir 2016-05-05 08:53:09
+INFO:root: Durasi koneksi 0:00:23.456000
+INFO:root: Inisiasi koneksi pada: 2016-05-05 12:11:28.486000
+INFO:root: Koneksi berhasil
+INFO:root: Jumlah user pada mesin: 31
+INFO:root: Jumlah data kehadiran pada mesin: 19520
+INFO:root: Scan terakhir sebelum sync :2016-05-05 08:53:09
+INFO:root: Durasi koneksi 0:00:23.540000
+INFO:root:_____________________END________________________
+INFO:root: Inisiasi koneksi pada: 2016-05-05 12:12:04.368000
+INFO:root: Koneksi berhasil
+INFO:root: Jumlah user pada mesin: 31
+INFO:root: Jumlah data kehadiran pada mesin: 19520
+INFO:root: Scan terakhir sebelum sync :2016-05-05 08:53:09
+INFO:root: Durasi koneksi 0:00:23.674000
+INFO:root:_____________________END________________________
+INFO:root: Inisiasi koneksi pada: 2016-05-05 12:16:58.645000
+INFO:root: Koneksi berhasil
+INFO:root: Jumlah user pada mesin: 31
+INFO:root: Jumlah data kehadiran pada mesin: 19522
+INFO:root: Scan terakhir sebelum sync :2016-05-05 08:53:09
+INFO:root: Sync selesai 2 berhasil disinkronisasi ke database
+INFO:root: Durasi koneksi 0:00:23.500000
+INFO:root:_____________________END________________________
+INFO:root: Inisiasi koneksi pada: 2016-05-05 12:18:05.853000
+INFO:root: Koneksi berhasil
+INFO:root: Jumlah user pada mesin: 31
+INFO:root: Jumlah data kehadiran pada mesin: 19522
+INFO:root: Scan terakhir sebelum sync :2016-05-05 12:09:47
+INFO:root: Sync selesai 0 data baru berhasil disinkronisasi ke database
+INFO:root: Durasi koneksi 0:00:23.697000
+INFO:root:_____________________END________________________
+INFO:root: Inisiasi koneksi pada: 2016-05-05 12:19:20.955000
+INFO:root: Koneksi berhasil
+INFO:root: Jumlah user pada mesin: 31
+INFO:root: Jumlah data kehadiran pada mesin: 19522
+INFO:root: Scan terakhir sebelum sync :2016-05-05 12:09:47
+INFO:root: Sync sukses, 0 data baru berhasil disinkronisasi ke database
+INFO:root: Durasi koneksi 0:00:23.759000
+INFO:root:_____________________END________________________

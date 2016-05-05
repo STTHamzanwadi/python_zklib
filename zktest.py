@@ -4,8 +4,9 @@ sys.path.append("zklib")
 import zklib
 import time
 import zkconst
+import syncAttendance
 
-zk = zklib.ZKLib("192.168.1.201", 4370)
+zk = zklib.ZKLib("192.168.20.9", 4370)
 
 ret = zk.connect()
 print "Pesan Koneksi:", ret
@@ -41,13 +42,16 @@ if ret == True:
                 level = 'User'
             print "[UID %d]: ID: %s, Name: %s, Level: %s, Password: %s" % ( uid, data_user[uid][0], data_user[uid][1], level, data_user[uid][3]  )
         
-    print "Pesan Clear Admin:", zk.clearAdmin()
+    #print "Pesan Clear Admin:", zk.clearAdmin()
     #zk.setUser(uid=61, userid='41', name='Dony Wahyu Isp', password='123456', role=zkconst.LEVEL_ADMIN)
     
     attendance = zk.getAttendance()
-    print "Pesan Get Attendance:"
+    print "Pesan Get Attendance: %s" % (len(attendance))
     
     if ( attendance ):
+        i = syncAttendance.Synchronizer()
+        cnt = 1
+        
         for lattendance in attendance:
             if lattendance[1] == 15:
                 state = 'Check In'
@@ -56,8 +60,13 @@ if ret == True:
             else:
                 state = 'Undefined'
                 
-            print "Tanggal %s, Jam %s: %s, Status: %s" % ( lattendance[2].date(), lattendance[2].time(), lattendance[0], state )
-        
+            #print "Tanggal %s, Jam %s: %s, Status: %s" % ( lattendance[2].date(), lattendance[2].time(), lattendance[0], state )
+            #print lattendance[0]
+            #print cnt
+            #cnt = cnt +1
+            i.insert(lattendance)
+            
+            #print lattendance
         #print "Pesan Clear Attendance:", zk.clearAttendance()
     
     print "Pesan Get Time:", zk.getTime()
